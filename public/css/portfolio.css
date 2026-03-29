@@ -17,6 +17,7 @@
 
         html {
             scroll-behavior: smooth;
+            overflow-x: hidden;
         }
 
         body {
@@ -28,6 +29,7 @@
                 radial-gradient(circle at 90% 10%, rgba(87, 201, 255, 0.14), transparent 40%),
                 var(--bg);
             line-height: 1.6;
+            overflow-x: hidden;
         }
 
         .container {
@@ -138,6 +140,7 @@
 
         section {
             padding: 5.5rem 0;
+            overflow-x: clip;
         }
 
         .hero {
